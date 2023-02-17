@@ -112,8 +112,6 @@ function carProductsElements(product) {
 
 //* 3. Imprimir, pintar, dibujar O renderizar los productos dentro del carrito.
 function carElementsHTML() {
-
-    //! como cada vez que iteramos con forEach creamos un nuevo div, debemos depurar los duplicados reinicializando el carList con innerHTML vacío. Esto borra todo lo que pueda ser repetido.
     carList.innerHTML = "";
 
     carProducts.forEach(product => {
